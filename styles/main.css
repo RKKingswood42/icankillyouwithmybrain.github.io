@@ -45,3 +45,8 @@ nav a.active {
   color: white;
   cursor: default;
 }
+
+img .profile-pic {
+    height: 200px;
+    border-radius: 50%;
+}
