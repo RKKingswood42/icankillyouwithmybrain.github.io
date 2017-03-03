@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Rachel Kay Kingswood\\'s professional portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '*.css, *.html, *.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icankillyouwithmybrain/portfolio.git"
+  },
+  "author": "Rachel Kay Kingswood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icankillyouwithmybrain/portfolio/issues"
+  },
+  "homepage": "https://github.com/icankillyouwithmybrain/portfolio#readme",
+    "dependencies": {
+    "wallop": "^2.4.1",
+    "browser-sync": "^2.12.5"
+  }
+}
