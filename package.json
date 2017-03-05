@@ -16,8 +16,13 @@
     "url": "https://github.com/icankillyouwithmybrain/portfolio/issues"
   },
   "homepage": "https://github.com/icankillyouwithmybrain/portfolio#readme",
-    "dependencies": {
+  "dependencies": {
     "wallop": "^2.4.1",
     "browser-sync": "^2.12.5"
+  },
+  "devDependencies": {
+    "serve": "http-server"  
   }
+    
+      
 }
