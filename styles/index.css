@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 .main-content{
-    background-color: rgba(8, 8, 8, 0.3);
+    background-color: rgba(8, 8, 8, 0.7);
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 5px;
@@ -78,6 +78,7 @@ nav a:hover {
     width: 70%;
     margin-left: 15%;
     align-content: center;
+    padding-bottom: 10px;
 }
 
 .hidden{
@@ -99,7 +100,35 @@ img.profile-pic {
 }
 
 p {
+    color: rgba(215, 215, 215, 1);
     text-size: 1.6 rem;
+    font-weight: 300;
+}
+ul, li {
+    color: rgba(215, 215, 215, 1);
+    font-weight: 300;
+}
+
+p a {
+    color: rgba(230, 55, 107, 1);
+    text-decoration: none;
+}
+
+p a:hover {
+    color: rgba(155, 23, 62, 1);
+}
+
+h2 {
+    font-family: "Fredericka the Great";
+    font-size: 2rem;
+    color: rgba(215, 215, 215, 1);
+    line-height: 5px;
+}
+
+h4 {
+    font-family: "Flamenco";
+    font-size: 1.3rem;
+    color: rgba(230, 55, 107, 1);
 }
 
 .footer {
@@ -113,6 +142,7 @@ p {
 }
 
 div.footer p {
+    color: black;
     line-height: 5px;
     margin: 0;
 }
@@ -122,4 +152,13 @@ img.logo {
     width: 50px;
     align-content: center;
     line-height: 5px;
+}
+
+img.slide {
+    max-width: 800px;
+}
+
+button.left, button.right {
+    position: relative;
+   align-self: center;
 }
