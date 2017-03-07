@@ -4,7 +4,7 @@
   "description": "Rachel Kay Kingswood\\'s professional portfolio.",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --server --files '*.css, *.html, *.js'"
+    "start": "node-sass --output-style compressed -o styles/css scss && browser-sync start --server --files '*.scss, *.css, *.html, *.js'"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "author": "Rachel Kay Kingswood",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/icankillyouwithmybrain/portfolio/issues"
+    "url": "http://www.rachelkaykingswood.com"
   },
   "homepage": "https://github.com/icankillyouwithmybrain/portfolio#readme",
   "dependencies": {
@@ -21,8 +21,6 @@
     "browser-sync": "^2.12.5"
   },
   "devDependencies": {
-    "serve": "http-server"  
+    "node-sass": "^4.5.0"
   }
-    
-      
 }
