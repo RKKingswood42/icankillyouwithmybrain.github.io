@@ -153,3 +153,20 @@ img.logo {
     align-content: center;
     line-height: 5px;
 }
+
+img.sm-logo {
+    max-height: 22px;
+    max-width: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    padding-right: 3px;
+    
+}
+
+img.med {
+    max-height: 35px;
+    max-width: 35px; 
+    padding-right: 0;
+    vertical-align: bottom;
+}
