@@ -75,6 +75,20 @@ nav a:hover {
 .main-content .about-page {
     min-height: 350px;
 }
+
+.thanks {
+    margin-top: 150px;
+    background-color: rgba(8, 8, 8, 0.7);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 5px;
+    margin-bottom: 70px;
+    min-height: 150px;
+}
+.thanks h2, .thanks p {
+    padding-top: 20px;
+    text-align: center;
+}
 .box {
     margin-top: 0px;
     padding-top: 15px;

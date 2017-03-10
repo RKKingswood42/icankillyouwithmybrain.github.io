@@ -24,17 +24,17 @@
         showCurrent();
     }); 
 
-//    if('ontouchstart' in window){
-//        $(".diy-slideshow").swipe({
-//        swipeLeft:function() {
-//            counter++;
-//            showCurrent();
-//            }
-//        swipeRight:function() {
-//            counter--;
-//            showCurrent();
-//            }
-//        });
-//    }
+    if('ontouchstart' in window){
+        $(".diy-slideshow").swipe({
+        swipeLeft:function() {
+            counter++;
+            showCurrent();
+            }
+        swipeRight:function() {
+            counter--;
+            showCurrent();
+            }
+        });
+    }
 
    console.log($items,$('.prev'),$('.next'));

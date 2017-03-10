@@ -4,7 +4,7 @@
   "description": "Rachel Kay Kingswood\\'s professional portfolio.",
   "main": "index.js",
   "scripts": {
-    "start": "node-sass --output-style compressed -o styles/css scss && browser-sync start --server --files '*.scss, *.css, *.html, *.js'"
+    "start": "browser-sync start --server --files *.css, *.html, *.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,5 @@
   "dependencies": {
     "wallop": "^2.4.1",
     "browser-sync": "^2.12.5"
-  },
-  "devDependencies": {
-    "node-sass": "^4.5.0"
   }
 }
