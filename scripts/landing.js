@@ -1,13 +1,12 @@
 // loading in partial pages jQuery
 
-$(document).ready(function(){
   $('.fetch').click(function(){
     var currentLink = $(this).prop('id');
     $('.box').addClass('hidden');
     $('#'+currentLink+ '-page').load(currentLink + ".html");
     $('#'+currentLink+ '-page').removeClass('hidden');
-  });
-});
+  });    
+    
 
 // Google Analytics
 
@@ -18,3 +17,5 @@ $(document).ready(function(){
 
   ga('create', 'UA-93083031-1', 'auto');
   ga('send', 'pageview');
+
+
